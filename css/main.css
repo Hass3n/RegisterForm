@@ -1,0 +1,79 @@
+body
+{
+    background-color: #24353F;
+    color: #fff;
+}
+
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+.register
+{
+    background-color: #24353F;
+    box-shadow: 5px 5px 20px 10px #0008;
+    width: 70%;
+    
+
+
+}
+
+
+.register h2{
+    color: #17A2B8;
+    font-size: 2.5rem;
+    letter-spacing: 1;
+    font-weight: 500;
+
+}
+
+.form-control {
+
+  border: 1px solid #fff !important;
+  background-color: transparent !important;
+  color: #fff !important;
+  padding-block: .625rem;
+
+}
+
+.form-control::placeholder
+{
+    color: #fff;
+}
+
+.form-control:focus {
+   
+  
+    outline: 2px solid rgb(23, 162, 184,.7);
+    box-shadow: none
+}
+
+
+.btn-outline-primary {
+    --bs-btn-color:rgb(23, 162, 184,.7);
+    --bs-btn-border-color: rgb(23, 162, 184,.7);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(23, 162, 184,.7);
+    --bs-btn-hover-border-color:rgb(23, 162, 184,.7);
+    
+}
+
+
+header
+{
+    background-color: #24353F;
+    box-shadow: 10px 10px 10px #0008;
+
+}
+
+.header-content 
+{
+    background-color: #24353F;
+    box-shadow: 5px 5px 20px 10px #0008;
+}
